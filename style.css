@@ -65,3 +65,51 @@
     right: 15px;
     cursor: pointer;
 }
+
+    
+    @media (max-width: 480px) {
+        .input-box {
+            max-width: 90%;
+            min-height: 120px;
+            padding: 15px;
+        }
+        .container {
+            padding-left: 5%;
+            padding-top: 2%;
+        }
+    
+        .container h1 {
+            font-size: 28px; 
+            flex-direction: column; 
+            text-align: center;
+        }
+    
+        .container h1 img {
+            width: 50px;
+            margin-bottom: 10px;
+        }
+    
+        .container button {
+            font-size: 14px; 
+            padding: 10px 20px; 
+            border-radius: 30px; 
+        }
+    
+        .container button img {
+            width: 20px; 
+            margin-right: 5px;
+        }
+    
+        .input-box {
+            max-width: 100%; 
+            min-height: 120px; 
+            padding: 15px;
+          }
+    
+        .input-box img {
+            width: 20px; 
+            bottom: 10px; 
+            right: 10px;
+        }
+    }
+    
